@@ -1,18 +1,18 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Next.js",
+  name: "CognitiveLab",
   description:
     "Beautifully designed components built with Radix UI and Tailwind CSS.",
   mainNav: [
     {
-      title: "Home",
-      href: "/",
+      title: "ToT-AGI",
+      href: "/tot-agi",
     },
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
-    docs: "https://ui.shadcn.com",
+    twitter: "https://twitter.com/adithya_s_k",
+    github: "https://github.com/adithya-s-k/TOT-AGI",
+    docs: "https://github.com/adithya-s-k/TOT-AGI",
   },
 }

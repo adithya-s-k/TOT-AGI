@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Link from "next/link"
 
 import { siteConfig } from "@/config/site"
@@ -8,12 +9,25 @@ export default function IndexPage() {
     <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
       <div className="flex max-w-[980px] flex-col items-start gap-2">
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
-          Beautifully designed components <br className="hidden sm:inline" />
-          built with Radix UI and Tailwind CSS.
+          Welcome to Tree of Thought AGI
+          <br className="hidden sm:inline" />
         </h1>
-        <p className="max-w-[700px] text-lg text-muted-foreground">
-          Accessible and customizable components that you can copy and paste
-          into your apps. Free. Open Source. And Next.js 13 Ready.
+        <p className="text-muted-foreground max-w-[700px] text-lg">
+          Tree of Thought AGI is an open-source project aimed at exploring the
+          potential of artificial general intelligence (AGI) using the
+          innovative{" "}
+          <span className="font-black text-white">Tree of Thoughts </span>
+          framework. Our goal is to empower language models to go beyond
+          token-level decision-making and enable them to perform deliberate and
+          strategic reasoning in problem-solving tasks.
+          <br />
+          <br />
+          With Tree of Thought AGI, we introduce a novel approach that allows
+          language models to consider multiple reasoning paths, self-evaluate
+          choices, and explore various possibilities to make informed decisions.
+          By leveraging coherent units of text ("thoughts") and incorporating
+          iterative analysis and exploration, our framework significantly
+          enhances language models' problem-solving abilities.
         </p>
       </div>
       <div className="flex gap-4">
@@ -31,7 +45,7 @@ export default function IndexPage() {
           href={siteConfig.links.github}
           className={buttonVariants({ variant: "outline" })}
         >
-          GitHub
+          ⭐ GitHub
         </Link>
       </div>
     </section>
