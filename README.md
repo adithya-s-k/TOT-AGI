@@ -1,5 +1,7 @@
 # ToT AGI
 
+![Tree of Thought AGI](images/tree_of_thought.jpg)
+
 Welcome to the Tree of Thought AGI project!
 
 Tree of Thought AGI is an open-source initiative that explores the fascinating realm of artificial general intelligence (AGI). Our goal is to advance language models beyond token-level decision-making and empower them with strategic reasoning and problem-solving abilities using the innovative "Tree of Thoughts" framework.
