@@ -18,3 +18,6 @@ Key Features:
 We invite you to join our community and contribute to the development of this cutting-edge AGI framework. Whether you are an AI enthusiast, developer, or researcher, your participation can help shape the future of AGI and advance the field of natural language processing.
 
 Explore the project, try out the demo, contribute code, or share your ideas with us. Together, let's embark on a journey to unravel the full potential of artificial general intelligence!
+
+# Credts
+This project is uses the Flux repository by paradigmxyz as a base template to build on top of. The original repository can be found [here](https://github.com/paradigmxyz/flux).
